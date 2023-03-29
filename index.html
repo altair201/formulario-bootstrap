@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="d-flex ">
+    <form class="container mt-5">
+    <div class="mt-5">
+    <div class="row mb-3">
+      <div>
+        <label class="form-label" for="User_name">User Name</label>
+        <input type="email" class="form-control" aria-describedby="emailHelp" id="User_name">
+      </div>
+      </div>
+    <div class="row mb-3">
+    <div>
+    <label class="form-label" for="email">Email address</label>
+    <input type="email" class="form-control" aria-describedby="emailHelp" id="email">
+    </div>
+    </div>
+    <div class="row mb-3">
+    <div>
+    <label class="form-label" for="direc">Dirección</label>
+    <input type="password" class="form-control" id="direc" placeholder="AV calle #">
+    </div>
+    </div>
+    <div class="row mb-3">
+    <div class="col-6" >
+    <label  class="form-label" for="city" >Ciudad</label>
+    <input type="password" class="form-control" id="city" placeholder="AV calle #">
+    </div>
+    <div class="col-3 ">
+        <label  class="form-label" for="depa" >Departamento</label>
+    <select name="dep" id="depa" class="form-control">
+        <option value="">elija</option>
+        <option value="">Floridablanca</option>
+        <option value="">Bucaramanga</option>
+        <option value="">Giron</option>
+        <option value="">Piedecuesta</option>
+    </select>
+    </div>
+    <div class="col-3" >
+    <label  class="form-label" for="code" >Codigo</label>
+    <input type="password" class="form-control" id="code" >
+    </div>
+    </div>
+    <div class="col" >
+    <label  class="form-label" for="text" >Comentario</label>
+    <div class="col row mb-3">
+      <div>
+    <textarea name="" id="text" class="form-control"rows="7"> </textarea>
+    </div>
+    </div>
+    </div>
+    <div class="mb-3 form-check">
+    <div class="d-flex justify-content-center">
+    <input type="checkbox" class="form-check-input">
+    <label class="form-check-label" >Acepta los terminos y condiciones</label>
+    </div>
+    </div>
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary">Comfirmar</button>
+  </div>
+  </div>
+</form>
+</body>
+</html>
